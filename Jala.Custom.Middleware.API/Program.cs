@@ -26,21 +26,8 @@ app.UseParamsMiddleware();
 
 app.UseMiddleware<QueryMiddleware>();
 
-app.UseAuthorization();
-// app.Use(async (context, next) =>
-// {
-//     Console.WriteLine("Log");
-//     await context.Response.WriteAsync("The end");
-//     return;
-//     await next.Invoke(context);
-//     Console.WriteLine("Log");
-// });
-
 app.MapControllers();
 
-// app.Run(async context =>
-// {
-//     await context.Response.WriteAsync("The end");
-// });
+app.UseAuthorization();
 
 app.Run();
