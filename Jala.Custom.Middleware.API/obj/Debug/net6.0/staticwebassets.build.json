@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fF6UQGiyRr8AhF8HEMcUhH8qiYTjpY4cm946RFqF740=",
+  "Source": "Jala.Custom.Middleware.API",
+  "BasePath": "_content/Jala.Custom.Middleware.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

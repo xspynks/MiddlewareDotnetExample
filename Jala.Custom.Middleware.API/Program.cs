@@ -24,6 +24,8 @@ app.UseHttpsRedirection();
 
 app.UseParamsMiddleware();
 
+app.UseMiddleware<QueryMiddleware>();
+
 app.UseAuthorization();
 // app.Use(async (context, next) =>
 // {
